@@ -1,0 +1,5 @@
+# building docker image
+docker build --t imagename .
+
+# running the image in a container by exposing 8000 port number
+docker run --publish 8000:8000 imagename
